@@ -2,58 +2,119 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My first webpage</title>
+    <title>My first Website</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- header-section -->
     <header>
-      <h3>Nooria</h3>
-       <!-- Nabar-section -->
-       <nav>
-      <div class="home-about">
-        <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-      </div>
-    </nav>
+      <h1>Nooria</h1>
+      <!-- Nabar-section -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-  
-    <div>
+    <!-- Main-section -->
+    <main>
+      <section class="home-section">
         <h2>Nooria Ahsani</h2>
-      <p>
-        Hello, I'm Nooria Ahsani from Helmand Province.I am passionate about
-        web development and currently learning HTML and CSS.
-      </p>
-    </div>
-      <img src="download.jfif" alt="nooria`s profile" />
-   
- <section>
-     <h2>languages I learn</h2>
-    <ul>
-      <li>Dari</li>
-      <li>Pashto</li>
-      <li>English</li>
-      <li>German</li>
-    </ul>
- </section>
-   <h2> languages I learn</h2>
-    <ol>
-      <li>بیگانه</li>
-      <li>اثر مرکب</li>
-      <li>ملت عشق</li>
-      <li>کیمیاگر</li>
-    </ol>
-  <section>
-      <h2>Jounrney of a Frontend developer</h2>
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Git and Github</li>
-      <li>Ract</li>
-      <li>Next.js</li>
-    </ol>
-  </section>
+        <p>
+          Hello, I'm Nooria Ahsani. I am passionate about web development and
+          currently learning HTML and CSS.
+        </p>
+        <figure>
+          <img src="download.jfif" alt="nooria`s profile" />
+          <figcaption>Nooria Ehsani</figcaption>
+        </figure>
+      </section>
+      <!-- 
+      <section>
+        <h2>languages I learn</h2>
+        <ul>
+          <li>Dari</li>
+          <li>Pashto</li>
+          <li>English</li>
+          <li>German</li>
+        </ul>
+      </section>
+      <h2>languages I learn</h2>
+      <ol>
+        <li>بیگانه</li>
+        <li>اثر مرکب</li>
+        <li>ملت عشق</li>
+        <li>کیمیاگر</li>
+      </ol>
+      <section>
+        <h2>Jounrney of a Frontend developer</h2>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git and Github</li>
+          <li>Ract</li>
+          <li>Next.js</li>
+        </ol>
+      </section> -->
+      <!-- Table-section -->
+      <section>
+        <table>
+          <caption>
+            My Favorite Books
+          </caption>
+          <colgroup>
+            <col />
+            <col />
+            <col />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Tilte</th>
+              <th>Author</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The Stranger</td>
+              <td>Albert Camus</td>
+              <td>1942</td>
+            </tr>
+            <tr>
+              <td>The Alchemist</td>
+              <td>Paulo Coelho</td>
+              <td>1988</td>
+            </tr>
+            <tr>
+              <td>The Compound Effect</td>
+              <td>Darren Hardy</td>
+              <td>2010</td>
+            </tr>
+            <tr>
+              Deep Work
+            </tr>
+            <tr>
+              Cal Newport
+            </tr>
+            <tr>
+              2016
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- contact-section -->
+      <section>
+        <form>
+          <h2>Contact Me</h2>
+          <label for="fname">Name:</label>
+          <input type="text" placeholder="Your name" id="fname" />
+        </form>
+      </section>
+    </main>
+    <!-- Footer-section -->
+    <footer>This is Footer</footer>
   </body>
 </html>
