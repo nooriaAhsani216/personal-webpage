@@ -3,20 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <title>My first Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- header-section -->
     <header>
-      <h1>Nooria</h1>
+      <h1>NDev</h1>
       <!-- Nabar-section -->
-      <nav>
+      <!-- <nav>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
     <!-- Main-section -->
     <main>
@@ -61,7 +67,7 @@
       </section> -->
       <!-- Table-section -->
       <section>
-        <table>
+        <table border="1">
           <caption>
             My Favorite Books
           </caption>
@@ -94,27 +100,39 @@
               <td>2010</td>
             </tr>
             <tr>
-              Deep Work
-            </tr>
-            <tr>
-              Cal Newport
-            </tr>
-            <tr>
-              2016
+              <td>Deep Work</td>
+              <td>Cal Newport</td>
+              <td>2016</td>
             </tr>
           </tbody>
         </table>
       </section>
       <!-- contact-section -->
-      <section>
+      <section class="form-sction">
         <form>
           <h2>Contact Me</h2>
-          <label for="fname">Name:</label>
-          <input type="text" placeholder="Your name" id="fname" />
+          <div class="row">
+            <div class="field">
+              <label for="fname">Name:</label>
+              <input type="text" placeholder="Your name" id="fname" />
+            </div>
+            <div class="field">
+              <label for="eaddress">Email:</label>
+              <input type="email" placeholder="Email address" id="eaddress" />
+            </div>
+          </div>
+          <label for="message">Message:</label>
+          <textarea placeholder="type here..." id="message"> </textarea>
+
+          <input class="send-input" type="submit" value="send" />
         </form>
       </section>
     </main>
     <!-- Footer-section -->
-    <footer>This is Footer</footer>
+    <footer>
+      <div class="footer-main">
+        <p>@2026 Nooria Ahsani</p>
+      </div>
+    </footer>
   </body>
 </html>
