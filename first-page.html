@@ -16,101 +16,94 @@
     <header>
       <h1>NDev</h1>
       <!-- Nabar-section -->
-      <!-- <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav> -->
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="https://youtu.be/G3e-cpL7ofc?si=ye2WD7L07MNhY7tE" target="_blank"><img src="download.png" alt="youtube logo" class="youtube-logo"></a>
+      </nav>
     </header>
     <!-- Main-section -->
     <main>
-      <section class="home-section">
-   <div>
-         <h2>Nooria Ahsani</h2>
-        <p>
-          Hello, I'm Nooria Ahsani. I am passionate about web development and
-          currently learning HTML and CSS.
-        </p>
-   </div>
-        <figure>
-          <img src="download.jfif" alt="nooria`s profile" />
-          <figcaption>Nooria Ehsani</figcaption>
-        </figure>
-      </section>
-      <!-- 
-      <section>
-        <h2>languages I learn</h2>
-        <ul>
-          <li>Dari</li>
-          <li>Pashto</li>
-          <li>English</li>
-          <li>German</li>
-        </ul>
-      </section>
-      <h2>languages I learn</h2>
-      <ol>
-        <li>بیگانه</li>
-        <li>اثر مرکب</li>
-        <li>ملت عشق</li>
-        <li>کیمیاگر</li>
-      </ol>
-      <section>
-        <h2>Jounrney of a Frontend developer</h2>
-        <ol>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git and Github</li>
-          <li>Ract</li>
-          <li>Next.js</li>
-        </ol>
-      </section> -->
-      <!-- Table-section -->
-      <section class="table-section">
-        <table border="1">
-          <caption>
-            My Favorite Books
-          </caption>
-          <colgroup>
-            <col />
-            <col />
-            <col />
-          </colgroup>
-          <thead>
-            <tr>
-         <th>Title</th>
-              <th>Author</th>
-              <th>Year</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>The Stranger</td>
-              <td>Albert Camus</td>
-              <td>1942</td>
-            </tr>
-            <tr>
-              <td>The Alchemist</td>
-              <td>Paulo Coelho</td>
-              <td>1988</td>
-            </tr>
-            <tr>
-              <td>The Compound Effect</td>
-              <td>Darren Hardy</td>
-              <td>2010</td>
-            </tr>
-            <tr>
-              <td>Deep Work</td>
-              <td>Cal Newport</td>
-              <td>2016</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+      <div class="main-home">
+        <section class="home-section">
+          <div>
+            <h2>Nooria Ahsani</h2>
+            <p>
+              Hello, I'm Nooria Ahsani. I am passionate about web development
+              and currently learning HTML and CSS.
+            </p>
+          </div>
+           <!-- langauge-section -->
+          <section class="languages-section">
+            <h2>Languages</h2>
+            <ul>
+              <li>Dari</li>
+              <li>Pashto</li>
+              <li>English</li>
+              <li>German</li>
+            </ul>
+          </section>
+        </section>
+      </div>
+      <div style="display: flex;">
+            <!-- Table-section -->
+        <section class="table-section">
+          <table>
+            <caption>
+              My Favorite Books
+            </caption>
+            <colgroup>
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <!-- <th>Year</th> -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>The Stranger</td>
+                <td>Albert Camus</td>
+                <!-- <td>1942</td> -->
+              </tr>
+              <tr>
+                <td>The Alchemist</td>
+                <td>Paulo Coelho</td>
+                <!-- <td>1988</td> -->
+              </tr>
+              <tr>
+                <td>The Compound Effect</td>
+                <td>Darren Hardy</td>
+                <!-- <td>2010</td> -->
+              </tr>
+              <tr>
+                <td>Deep Work</td>
+                <td>Cal Newport</td>
+                <!-- <td>2016</td> -->
+              </tr>
+            </tbody>
+          </table>
+        </section>
+                <!-- Ol-list -section -->
+        <section class="main-ol-section">
+          <h2>My Goals 🚀</h2>
+          <ol>
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+            <li>Learn React</li>
+            <li>English B2</li>
+            <li>German B2</li>
+          </ol>
+        </section>
+      </div>
       <!-- contact-section -->
-      <section class="form-sction">
+      <section class="form-section">
         <form>
           <h2>Contact Me</h2>
           <div class="row">
@@ -118,7 +111,6 @@
               <label for="fname">Name:</label>
               <input type="text" placeholder="Your name" id="fname" />
             </div>
-            
             <div class="field">
               <label for="eaddress">Email:</label>
               <input type="email" placeholder="Email address" id="eaddress" />
@@ -126,7 +118,6 @@
           </div>
           <label for="message">Message:</label>
           <textarea placeholder="type here..." id="message"> </textarea>
-
           <input class="send-input" type="submit" value="send" />
         </form>
       </section>
